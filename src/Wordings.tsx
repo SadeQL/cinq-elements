@@ -81,27 +81,17 @@ export const ContactWordings = {
 
 export const TermsAndConditionsPageWordings = {
 	bookingTitle: 'Booking policy',
-	bookingDescription: `Sessions are open for reservation 5 days prior to the present day. It is mandatory to fill out the booking form, in order to create your personal BaZi chart for your sessions. It contains questions of personal information, birth time and a short questionnaire about the aspects in which you would like to enhance. Please take some time to think about it mindfully and honestly.\n
-
-    You will receive a booking confirmation once the form is sent and the transaction is complete.\n
-    A reminder will be sent 3 days prior to your session.\n
+	bookingDescription: `Sessions are open for reservation 5 days prior to the present day. It is mandatory to fill out the booking form, in order to create your personal BaZi chart for your sessions. It contains questions of personal information, birth time and a short questionnaire about the aspects in which you would like to enhance. Please take some time to think about it mindfully and honestly.\nYou will receive a booking confirmation once the form is sent and the transaction is complete.\nA reminder will be sent 3 days prior to your session.\n
     Please contact me at least 48 hours in advance if you want to reschedule.`,
 	rescheduleTitle: 'Reschedule & Refund',
-	rescheduleDescription: `To reschedule your session, please contact me at least 48 hours in advance from the original date and time. Sessions may be rescheduled to another date within 3 months based on availability. If there is no availability, a refund will be issued.\n
-    Please note that reschedule will not be granted with less than a 48 hour notice and refunds are not permitted in case of no show up.
+	rescheduleDescription: `To reschedule your session, please contact me at least 48 hours in advance from the original date and time. Sessions may be rescheduled to another date within 3 months based on availability. If there is no availability, a refund will be issued.\nPlease note that reschedule will not be granted with less than a 48 hour notice and refunds are not permitted in case of no show up.
     `,
 	paymentTitle: 'Payment',
-	paymentDescription: `Payments via PayPal. At the end of the booking form, you will be directed to PayPal.\n
-    If you encounter any problems with the payment, please contact me.`,
+	paymentDescription: `Payments via PayPal. At the end of the booking form, you will be directed to PayPal.\nIf you encounter any problems with the payment, please contact me.`,
 };
 
 export const PrivacyWordings = {
 	title: 'Privacy Policy',
-	description: `Every BaZi reading is unique and confidential.\n
-    Your birth information is requested solely for the creation of your BaZi chart. It will not be used for any other purposes.\n
-    All life coaching sessions are not recorded nor filmed. Contents of consultations will not be shared, published or used in any form.\n
-    
-    Booking forms powered by Jotform.\n
-    All personal data and information are collected only for the use of creating birth charts and personalized life coaching sessions. No contexts are shared, published or used for other purposes.
+	description: `Every BaZi reading is unique and confidential.\nYour birth information is requested solely for the creation of your BaZi chart. It will not be used for any other purposes.\nAll life coaching sessions are not recorded nor filmed. Contents of consultations will not be shared, published or used in any form.\nBooking forms powered by Jotform.\nAll personal data and information are collected only for the use of creating birth charts and personalized life coaching sessions. No contexts are shared, published or used for other purposes.
     `,
 };
