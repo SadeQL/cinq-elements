@@ -17,8 +17,9 @@ export const GlobalWordings = {
 export const HomepageWordings = {
 	homepageCaption: 'CREATE YOUR BALANCE',
 	homepageSlogan: 'Reconnect.  Reflect.  Cultivate.',
-	homepageEndLine:
-		'Life isn’t about finding yourself.\n Life is about creating yourself.\n — George Bernard Shaw',
+	homepageEndLine: 'Life isn’t about finding yourself.',
+	homePageEndLine2: 'Life is about creating yourself.',
+	endLineAuthor: '— George Bernard Shaw',
 };
 
 export const BaZipageWordings = {
