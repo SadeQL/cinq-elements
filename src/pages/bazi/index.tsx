@@ -6,6 +6,7 @@ import {
 	GlobalWordings,
 	TestimonialWordings,
 } from '../../Wordings';
+import { QuoteBanner } from '../../components/quote';
 
 export const BaziPage: React.FC = () => {
 	const baziDescription = BaZipageWordings.bazipageDescription.split('\n');
@@ -13,10 +14,10 @@ export const BaziPage: React.FC = () => {
 	return (
 		<S.GlobalWrapper>
 			<S.Wrapper>
+				<S.Caption>{BaZipageWordings.title}</S.Caption>
 				<S.ImageContainer>
 					<img src={baziHeroImg} />
 				</S.ImageContainer>
-				<S.Caption>{BaZipageWordings.title}</S.Caption>
 				<S.Caption>{BaZipageWordings.baziChineseCharacter}</S.Caption>
 				<S.TitleDescription>
 					{BaZipageWordings.baziWordDescription}
@@ -31,8 +32,8 @@ export const BaziPage: React.FC = () => {
 				</S.StyledCTALink>
 			</S.BodyWrapper>
 			<S.EndLinesWrapper>
-				<S.EndLinesText>{TestimonialWordings.descriptionOne}</S.EndLinesText>
-				<S.EndLinesText>{TestimonialWordings.nameOne}</S.EndLinesText>
+				<QuoteBanner>{TestimonialWordings.descriptionOne}</QuoteBanner>
+				<QuoteBanner>{TestimonialWordings.nameOne}</QuoteBanner>
 			</S.EndLinesWrapper>
 		</S.GlobalWrapper>
 	);

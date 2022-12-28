@@ -3,6 +3,7 @@ import * as S from './styles';
 import aboutImg from '../../assets/about.jpg';
 import authorImg from '../../assets/felicia.png';
 import { AboutWordings } from '../../Wordings';
+import { QuoteBanner } from '../../components/quote';
 
 export const AboutPage: React.FC = () => {
 	const firstDescriptionWordings = AboutWordings.description.trim().split('\n');
@@ -36,7 +37,7 @@ export const AboutPage: React.FC = () => {
 			</S.BodyWrapper>
 			<S.EndLinesWrapper>
 				{endPageLineWordings.map((wording) => (
-					<S.EndLinesText key={wording}>{wording}</S.EndLinesText>
+					<QuoteBanner key={wording}>{wording}</QuoteBanner>
 				))}
 			</S.EndLinesWrapper>
 		</S.GlobalWrapper>

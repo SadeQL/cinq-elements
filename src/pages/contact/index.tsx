@@ -2,6 +2,7 @@ import * as React from 'react';
 import * as S from './styles';
 import contactImg from '../../assets/contact.jpg';
 import { ContactWordings } from '../../Wordings';
+import { CTARedirect } from '../../components/cta';
 
 export const ContactPage: React.FC = () => {
 	const bodyDescriptionWordings = ContactWordings.description
@@ -22,9 +23,9 @@ export const ContactPage: React.FC = () => {
 				))}
 				<S.ContactWrapper>
 					<S.BodyDescription>{ContactWordings.nameTag}</S.BodyDescription>
-					<S.ExternalLink href={openEmailModal}>
+					<CTARedirect href={openEmailModal}>
 						{ContactWordings.emailText}
-					</S.ExternalLink>
+					</CTARedirect>
 				</S.ContactWrapper>
 			</S.BodyWrapper>
 		</S.GlobalWrapper>
