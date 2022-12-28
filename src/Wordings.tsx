@@ -27,11 +27,11 @@ export const BaZipageWordings = {
 	baziChineseCharacter: '八字',
 	baziWordDescription: '/ bāzì /  eight characters',
 	bazipageDescription:
-		'八字, or 生辰八字, also known as Four Pillars of Destiny, is an ancient Chinese study of energy, time and balance. It was considered a concept for Metaphysics, Numerology and Astrology.\n\nBaZi is based on combinations of specific Chinese characters, the Yin and Yang philosophy, and the five elements: Wood, Fire, Earth, Metal and Water.\nIt is also linked to the application of Traditional Chinese Medicine (TCM) and FengShui.\n\nBaZi reflects who we are, our interactions with others, and the energy of the universe. It is a guide to a balanced mind, body and life.',
+		'八字, or 生辰八字, also known as Four Pillars of Destiny, is an ancient Chinese study of energy, time and balance. It was considered a concept for Metaphysics, Numerology and Astrology.\nBaZi is based on combinations of specific Chinese characters, the Yin and Yang philosophy, and the five elements: Wood, Fire, Earth, Metal and Water. It is also linked to the application of Traditional Chinese Medicine (TCM) and FengShui.\nBaZi reflects who we are, our interactions with others, and the energy of the universe. It is a guide to a balanced mind, body and life.',
 };
 
 export const TestimonialWordings = {
-	nameOne: 'Jane Doe',
+	nameOne: '— Jane Doe',
 	descriptionOne: 'Great Advise',
 };
 
