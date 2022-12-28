@@ -4,8 +4,10 @@ import bookingHeroImg from '../../assets/booking.jpg';
 import bookingEndImg from '../../assets/booking-2.jpg';
 
 import { BookingWordings, GlobalWordings } from '../../Wordings';
+import { QuoteBanner } from '../../components/quote';
+import { CTARedirect } from '../../components/cta';
 
-export const BookingPage: React.FC = () => {
+export const BookingPage: React.FC = (...url) => {
 	const bodyWordings = BookingWordings.description.trim().split('\n');
 	const conditionWordings = BookingWordings.condition.trim().split('\n');
 	const pageEndLineWordings = BookingWordings.bookingPageEndLine
@@ -19,31 +21,29 @@ export const BookingPage: React.FC = () => {
 	return (
 		<S.GlobalWrapper>
 			<S.Wrapper>
+				<S.Caption>{BookingWordings.title}</S.Caption>
 				<S.ImageContainer>
 					<img src={bookingHeroImg} />
 				</S.ImageContainer>
-				<S.Caption>{BookingWordings.title}</S.Caption>
 			</S.Wrapper>
 			<S.BodyWrapper>
 				{bodyWordings.map((wording) => (
 					<S.BodyDescription key={wording}>{wording}</S.BodyDescription>
 				))}
-				<S.ExternalLink href={bookingUrl} target="_blank">
+				<CTARedirect href={bookingUrl}>
 					{GlobalWordings.bookASession}
-				</S.ExternalLink>
+				</CTARedirect>
 				<S.BookingCTATitle>{BookingWordings.subTitle}</S.BookingCTATitle>
 				<S.BookingCTABody>{BookingWordings.price}</S.BookingCTABody>
 				{conditionWordings.map((wording) => (
 					<S.BodyDescription key={wording}>{wording}</S.BodyDescription>
 				))}
-
-				<S.ExternalLink href={instagramUrl} target="_blank">
+				<CTARedirect href={instagramUrl}>
 					{BookingWordings.instagram}
-				</S.ExternalLink>
+				</CTARedirect>
+
 				<S.BodyDescription>{BookingWordings.question}</S.BodyDescription>
-				<S.ExternalLink href={openEmailModal}>
-					{BookingWordings.email}
-				</S.ExternalLink>
+				<CTARedirect href={openEmailModal}>{BookingWordings.email}</CTARedirect>
 			</S.BodyWrapper>
 			<S.SloganImageWrapper>
 				<S.Slogan>{BookingWordings.bookingPageSlogan}</S.Slogan>
@@ -53,7 +53,7 @@ export const BookingPage: React.FC = () => {
 			</S.SloganImageWrapper>
 			<S.EndLinesWrapper>
 				{pageEndLineWordings.map((wording) => (
-					<S.EndLinesText key={wording}>{wording}</S.EndLinesText>
+					<QuoteBanner key={wording}>{wording}</QuoteBanner>
 				))}
 			</S.EndLinesWrapper>
 		</S.GlobalWrapper>

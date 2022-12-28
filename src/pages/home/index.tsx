@@ -4,6 +4,7 @@ import img1 from '../../assets/homepage1.png';
 import img2 from '../../assets/homepage2.jpg';
 import flowerImg from '../../assets/flower.jpg';
 import { HomepageWordings, GlobalWordings } from '../../Wordings';
+import { QuoteBanner } from '../../components/quote';
 
 export const HomePage: React.FC = () => {
 	const Wordings = HomepageWordings.homepageEndLine.split('\n');
@@ -32,7 +33,7 @@ export const HomePage: React.FC = () => {
 				</S.SloganImageWrapper>
 				<S.EndLinesWrapper>
 					{Wordings.map((wording) => (
-						<S.EndLinesText key={wording}>{wording}</S.EndLinesText>
+						<QuoteBanner key={wording}>{wording}</QuoteBanner>
 					))}
 				</S.EndLinesWrapper>
 			</S.GlobalWrapper>
