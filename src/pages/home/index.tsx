@@ -31,9 +31,9 @@ export const HomePage: React.FC = () => {
 					</S.ImageContainer>
 				</S.SloganImageWrapper>
 				<S.EndLinesWrapper>
-					<S.EndLinesText>{Wordings[0]}</S.EndLinesText>
-					<S.EndLinesText>{Wordings[1]}</S.EndLinesText>
-					<S.EndLinesText>{Wordings[2]}</S.EndLinesText>
+					{Wordings.map((wording) => (
+						<S.EndLinesText key={wording}>{wording}</S.EndLinesText>
+					))}
 				</S.EndLinesWrapper>
 			</S.GlobalWrapper>
 		</>
