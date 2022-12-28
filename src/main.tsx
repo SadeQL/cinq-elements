@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { HomePage } from './pages/home';
 import { Layout } from './Layout';
 import { GlobalStyle } from './GlobalStyles';
+import { BaziPage } from './pages/bazi';
 
 const router = createBrowserRouter([
 	{
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
 				path: 'home',
 				element: <HomePage />,
 			},
+			{ path: 'bazi', element: <BaziPage /> },
 		],
 	},
 ]);
