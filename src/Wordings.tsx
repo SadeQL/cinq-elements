@@ -62,21 +62,12 @@ export const BookingWordings = {
 
 export const AboutWordings = {
 	title: 'About',
-	description: `Cinq éléments is both a community and a wellness platform, the intersection of well-being and slow living.\n
-
-    Based on ancient wisdom such as BaZi, Taoist philosophy, FengShui and Traditional Chinese Medicine (TCM) ; this is a holistic approach to mindset, inner introspection and energy guidance — cinq éléments is the art of balance.
+	description: `Cinq éléments is both a community and a wellness platform, the intersection of well-being and slow living.\nBased on ancient wisdom such as BaZi, Taoist philosophy, FengShui and Traditional Chinese Medicine (TCM) ; this is a holistic approach to mindset, inner introspection and energy guidance — cinq éléments is the art of balance.
     `,
-	secondaryDescription: `Welcome to my wellness project, cinq éléments.\n
-
-    I believe that the most important practice in our lives is the journey within ourselves. I also believe that definitions of well-being are all unique and that cinq éléments is for everybody.\n
-    
-    This is my dream to help people connect mindfully, find peace and balance in all aspects of life.\n
-    
-    Reflect, learn and grow together.
+	secondaryDescription: `Welcome to my wellness project, cinq éléments.\nI believe that the most important practice in our lives is the journey within ourselves. I also believe that definitions of well-being are all unique and that cinq éléments is for everybody.\nThis is my dream to help people connect mindfully, find peace and balance in all aspects of life.\nReflect, learn and grow together.
     `,
 	nameTag: '— Félicia Chiang',
-	aboutPageEndLine: `Letting the mind control the vital breath is called force.\n
-    — Tao Te Ching
+	aboutPageEndLine: `Letting the mind control the vital breath is called force.\n— Tao Te Ching
     `,
 };
 

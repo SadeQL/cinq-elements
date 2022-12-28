@@ -7,6 +7,7 @@ import { GlobalStyle } from './GlobalStyles';
 import { BaziPage } from './pages/bazi';
 import { ReadingsPage } from './pages/readings';
 import { BookingPage } from './pages/booking';
+import { AboutPage } from './pages/about';
 
 const router = createBrowserRouter([
 	{
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
 			{
 				path: 'booking',
 				element: <BookingPage />,
+			},
+			{
+				path: 'about',
+				element: <AboutPage />,
 			},
 		],
 	},
