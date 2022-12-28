@@ -58,3 +58,29 @@ export const LinkWrapper = styled.div`
 	justify-content: center;
 	margin-top: 2em;
 `;
+
+export const BodyWrapper = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 50%;
+	margin: 3em;
+`;
+
+export const BodyDescription = styled.p`
+	font-size: 1.2em;
+	color: black;
+	margin-top: 5px;
+`;
+
+export const StyledCTALink = styled(Link)`
+	text-decoration: none;
+	font-size: 1em;
+	color: ${Colors.title};
+
+	&:hover,
+	&:focus {
+		font-weight: 800;
+		text-decoration: underline;
+	}
+`;

@@ -34,18 +34,9 @@ export const TestimonialWordings = {
 
 export const ReadingsWordings = {
 	title: 'Readings',
-	description: `BaZi readings with me are elevated moments of intuitive insights and holistic energy guidance based on your personal BaZi birth chart.\n
-    I am here to help you reconnect with yourself in depth, and cultivate your potential with self-awareness.\n
-    
-         Why do I feel like this lately?\n
-         When is the best timing for me?\n
-         How should I take action towards a new path?\n
-    
-    By understanding your thoughts from a spiritual perspective, your mindset will recalibrate to a balanced personal, professional and creative aspects in life.
+	description: `BaZi readings with me are elevated moments of intuitive insights and holistic energy guidance based on your personal BaZi birth chart.\nI am here to help you reconnect with yourself in depth, and cultivate your potential with self-awareness.\nWhy do I feel like this lately?\nWhen is the best timing for me?\nHow should I take action towards a new path?\nBy understanding your thoughts from a spiritual perspective, your mindset will recalibrate to a balanced personal, professional and creative aspects in life.
     `,
-	readingPageEndLine: `Look at the situation from all angles, and\n
-    you will become more open.\n
-    — Dalai Lama
+	readingPageEndLine: `Look at the situation from all angles, \nand you will become more open.\n— Dalai Lama
     `,
 };
 

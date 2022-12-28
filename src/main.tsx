@@ -5,6 +5,7 @@ import { HomePage } from './pages/home';
 import { Layout } from './Layout';
 import { GlobalStyle } from './GlobalStyles';
 import { BaziPage } from './pages/bazi';
+import { ReadingsPage } from './pages/readings';
 
 const router = createBrowserRouter([
 	{
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
 				element: <HomePage />,
 			},
 			{ path: 'bazi', element: <BaziPage /> },
+			{ path: 'readings', element: <ReadingsPage /> },
 		],
 	},
 ]);
