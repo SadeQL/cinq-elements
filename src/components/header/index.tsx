@@ -10,10 +10,10 @@ export const Header: React.FC = () => {
 				<S.Logo>
 					<img src={Logo} />
 				</S.Logo>
-				<S.StyledTitleLink to="/home">{GlobalWordings.title}</S.StyledTitleLink>
+				<S.StyledTitleLink to="/">{GlobalWordings.title}</S.StyledTitleLink>
 			</S.LogoTitleWrapper>
 			<S.LinkWrapper>
-				<S.StyledLink to="/home">{GlobalWordings.home}</S.StyledLink>
+				<S.StyledLink to="/">{GlobalWordings.home}</S.StyledLink>
 				<S.StyledLink to="/bazi">{GlobalWordings.bazi}</S.StyledLink>
 				<S.StyledLink to="/readings">{GlobalWordings.readings}</S.StyledLink>
 				<S.StyledLink to="/booking">{GlobalWordings.booking}</S.StyledLink>
