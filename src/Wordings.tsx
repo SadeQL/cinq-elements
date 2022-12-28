@@ -76,7 +76,7 @@ export const ContactWordings = {
 	description:
 		'If you have questions about BaZi, booking, or any business inquiries, please feel free to contact me.',
 	nameTag: 'Félicia',
-	emailText: 'Mail to link',
+	emailText: 'write me an email',
 };
 
 export const TermsAndConditionsPageWordings = {

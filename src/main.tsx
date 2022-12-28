@@ -9,6 +9,8 @@ import { ReadingsPage } from './pages/readings';
 import { BookingPage } from './pages/booking';
 import { AboutPage } from './pages/about';
 import { TermsAndConditionsPage } from './pages/terms';
+import { PrivacyPage } from './pages/privacy';
+import { ContactPage } from './pages/contact';
 
 const router = createBrowserRouter([
 	{
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
 			{
 				path: 'terms-and-conditions',
 				element: <TermsAndConditionsPage />,
+			},
+			{
+				path: 'privacy',
+				element: <PrivacyPage />,
+			},
+			{
+				path: 'contact',
+				element: <ContactPage />,
 			},
 		],
 	},
