@@ -6,6 +6,7 @@ import flowerImg from '../../assets/flower.jpg';
 import { HomepageWordings, GlobalWordings } from '../../Wordings';
 
 export const HomePage: React.FC = () => {
+	const Wordings = HomepageWordings.homepageEndLine.split('\n');
 	return (
 		<>
 			<S.GlobalWrapper>
@@ -30,9 +31,9 @@ export const HomePage: React.FC = () => {
 					</S.ImageContainer>
 				</S.SloganImageWrapper>
 				<S.EndLinesWrapper>
-					<S.EndLinesText>{HomepageWordings.homepageEndLine}</S.EndLinesText>
-					<S.EndLinesText>{HomepageWordings.homePageEndLine2}</S.EndLinesText>
-					<S.EndLinesText>{HomepageWordings.endLineAuthor}</S.EndLinesText>
+					<S.EndLinesText>{Wordings[0]}</S.EndLinesText>
+					<S.EndLinesText>{Wordings[1]}</S.EndLinesText>
+					<S.EndLinesText>{Wordings[2]}</S.EndLinesText>
 				</S.EndLinesWrapper>
 			</S.GlobalWrapper>
 		</>
