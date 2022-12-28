@@ -8,6 +8,7 @@ import { BaziPage } from './pages/bazi';
 import { ReadingsPage } from './pages/readings';
 import { BookingPage } from './pages/booking';
 import { AboutPage } from './pages/about';
+import { TermsAndConditionsPage } from './pages/terms';
 
 const router = createBrowserRouter([
 	{
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
 			{
 				path: 'about',
 				element: <AboutPage />,
+			},
+			{
+				path: 'terms-and-conditions',
+				element: <TermsAndConditionsPage />,
 			},
 		],
 	},
