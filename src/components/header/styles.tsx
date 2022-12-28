@@ -39,6 +39,12 @@ export const StyledLink = styled(Link)`
 	color: black;
 	font-size: 1.2em;
 	color: ${Colors.title};
+
+	&:hover,
+	&:focus {
+		font-weight: 800;
+		text-decoration: underline;
+	}
 `;
 
 export const LogoTitleWrapper = styled.div`
