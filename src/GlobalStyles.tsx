@@ -2,7 +2,7 @@ import * as React from 'react';
 import { createGlobalStyle } from 'styled-components';
 
 const Colors = {
-	background: '#FAEFD7',
+	background: '#FFF2CC',
 	text: '#FFF',
 } as const;
 

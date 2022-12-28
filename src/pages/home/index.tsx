@@ -12,7 +12,7 @@ export const HomePage: React.FC = () => {
 			<S.GlobalWrapper>
 				<S.CaptionCTAWrapper>
 					<S.Caption>{HomepageWordings.homepageCaption}</S.Caption>
-					<S.StyledCTALink to="home">
+					<S.StyledCTALink to="/readings">
 						{GlobalWordings.discoverMore}
 					</S.StyledCTALink>
 				</S.CaptionCTAWrapper>
