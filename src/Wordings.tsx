@@ -42,22 +42,16 @@ export const ReadingsWordings = {
 
 export const BookingWordings = {
 	title: 'Booking',
-	description: `While booking a 1:1 session, you will be asked to provide information regarding the exact time of your birth, which is crucial for your BaZi chart.\n
-
-In order to give precise guidance, questions about the aspects in which you would like to focus on are required.\n
-
-I speak English, French, Mandarin and Japanese fluently.
+	description: `While booking a 1:1 session, you will be asked to provide information regarding the exact time of your birth, which is crucial for your BaZi chart.\nIn order to give precise guidance, questions about the aspects in which you would like to focus on are required.\nI speak English, French, Mandarin and Japanese fluently.
 `,
 	subTitle: 'BaZi reading 1:1 life coaching sessions',
-	price: `Consultations\n
-45minutes\n€50
+	price: `Consultations: 45minutes - €50
 `,
-	condition: `Please note that all 1:1 readings are done digitally to optimize privacy.\n
-In-person readings are limited to events. Follow cinq éléments on Instagram to be updated.`,
-	instagram: 'Link to Instagram',
+	condition: `Please note that all 1:1 readings are done digitally to optimize privacy.\nIn-person readings are limited to events. Follow cinq éléments on Instagram to be updated.`,
+	instagram: 'follow my Instagram',
 	question:
 		'If you have any questions or requests, please feel free to contact me.',
-	email: 'Mail to felicia.chiang@icloud.com',
+	email: 'write me an email',
 	bookingPageSlogan: 'Introspect. Recalibrate. Balance.',
 	bookingPageEndLine: `All things carry yin and embrace yang.\n
     They reach harmony by blending with the 

@@ -23,9 +23,9 @@ export const BaziPage: React.FC = () => {
 				</S.TitleDescription>
 			</S.Wrapper>
 			<S.BodyWrapper>
-				<S.BodyDescription>{baziDescription[0]}</S.BodyDescription>
-				<S.BodyDescription>{baziDescription[1]}</S.BodyDescription>
-				<S.BodyDescription>{baziDescription[2]}</S.BodyDescription>
+				{baziDescription.map((wording) => (
+					<S.BodyDescription key={wording}>{wording}</S.BodyDescription>
+				))}
 				<S.StyledCTALink to="/home">
 					{GlobalWordings.learnAboutFiveElements}
 				</S.StyledCTALink>

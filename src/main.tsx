@@ -6,6 +6,7 @@ import { Layout } from './Layout';
 import { GlobalStyle } from './GlobalStyles';
 import { BaziPage } from './pages/bazi';
 import { ReadingsPage } from './pages/readings';
+import { BookingPage } from './pages/booking';
 
 const router = createBrowserRouter([
 	{
@@ -16,8 +17,18 @@ const router = createBrowserRouter([
 				path: 'home',
 				element: <HomePage />,
 			},
-			{ path: 'bazi', element: <BaziPage /> },
-			{ path: 'readings', element: <ReadingsPage /> },
+			{
+				path: 'bazi',
+				element: <BaziPage />,
+			},
+			{
+				path: 'readings',
+				element: <ReadingsPage />,
+			},
+			{
+				path: 'booking',
+				element: <BookingPage />,
+			},
 		],
 	},
 ]);

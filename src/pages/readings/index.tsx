@@ -19,14 +19,12 @@ export const ReadingsPage: React.FC = () => {
 				<S.Caption>{ReadingsWordings.title}</S.Caption>
 			</S.Wrapper>
 			<S.BodyWrapper>
-				<S.BodyDescription>{wordings[0]}</S.BodyDescription>
-				<S.BodyDescription>{wordings[1]}</S.BodyDescription>
-				<S.BodyDescription>{wordings[2]}</S.BodyDescription>
-				<S.BodyDescription>{wordings[3]}</S.BodyDescription>
-				<S.BodyDescription>{wordings[4]}</S.BodyDescription>
-				<S.BodyDescription>{wordings[5]}</S.BodyDescription>
-				<S.BodyDescription>{wordings[6]}</S.BodyDescription>
-				<S.StyledCTALink to="/home">{GlobalWordings.howItGoes}</S.StyledCTALink>
+				{wordings.map((wording) => (
+					<S.BodyDescription key={wording}>{wording}</S.BodyDescription>
+				))}
+				<S.StyledCTALink to="/booking">
+					{GlobalWordings.howItGoes}
+				</S.StyledCTALink>
 			</S.BodyWrapper>
 			<S.Wrapper>
 				<S.ImageContainer>
@@ -34,9 +32,9 @@ export const ReadingsPage: React.FC = () => {
 				</S.ImageContainer>
 			</S.Wrapper>
 			<S.EndLinesWrapper>
-				<S.EndLinesText>{endPageWordings[0]}</S.EndLinesText>
-				<S.EndLinesText>{endPageWordings[1]}</S.EndLinesText>
-				<S.EndLinesText>{endPageWordings[2]}</S.EndLinesText>
+				{endPageWordings.map((wording) => (
+					<S.EndLinesText key={wording}>{wording}</S.EndLinesText>
+				))}
 			</S.EndLinesWrapper>
 		</S.GlobalWrapper>
 	);
