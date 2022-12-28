@@ -15,7 +15,7 @@ export const Header: React.FC = () => {
 			<S.LinkWrapper>
 				<S.StyledLink to="/home">{GlobalWordings.home}</S.StyledLink>
 				<S.StyledLink to="/bazi">{GlobalWordings.bazi}</S.StyledLink>
-				<S.StyledLink to="/home">{GlobalWordings.readings}</S.StyledLink>
+				<S.StyledLink to="/readings">{GlobalWordings.readings}</S.StyledLink>
 				<S.StyledLink to="/home">{GlobalWordings.booking}</S.StyledLink>
 				<S.StyledLink to="/home">{GlobalWordings.about}</S.StyledLink>
 			</S.LinkWrapper>
